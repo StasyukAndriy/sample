@@ -1,0 +1,21 @@
+body{
+   margin: 0;
+   font-family: 'Montserrat',sans-serif;
+   /* вивчити що таке санс серіф -  Шрифти без засічок */
+}
+.header{
+    position: relative; /*position  задає тип способу позиціонування , який використовується для елемента*/
+    display:flex; /* display визначає, як елемент повинен бути показаний в документі
+    ,вказує тип блока, який використовуться для HTML-елемента. Flex робить щоб 
+    елементи блоку були гнучкими */
+       flex-direction: column;/*  flex-direction дозволяє обертати (змінювати) головну вісь 
+    column-вертикально,  по замовчуванні головна вісь горизонтальна*/
+    justify-content: center; /* вирівнювання елементів в блоці  по головній осі*/
+    align-items: center; /*вирівнювання елементів в блоці перпендикулярній прямій до головній осі*/
+    width: 100%;
+    height: 100vh;
+    background-color: #526480;
+    background-image:url("./../image/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
